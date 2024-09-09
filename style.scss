@@ -1,3 +1,9 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +21,7 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-center();
 
     img {
         margin-left: 1vw;
@@ -30,11 +34,9 @@ nav {
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-wrap: none;
+    @include flex-center();
 
+    flex-direction: row;
     li {
         list-style: none;
         font-size: 2rem;
@@ -50,9 +52,8 @@ ul {
 }
 
 section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex-center();
+
     padding: 3% 10%;
 }
 

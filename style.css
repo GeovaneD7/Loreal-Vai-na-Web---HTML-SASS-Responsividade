@@ -29,9 +29,9 @@ nav {
 
 ul {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  text-wrap: none;
+  flex-direction: row;
 }
 ul li {
   list-style: none;
@@ -48,8 +48,8 @@ ul li {
 
 section {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 3% 10%;
 }
 
