@@ -24,8 +24,7 @@ header img {
 
 nav {
   display: flex;
-  height: 64px;
-  max-height: 64px;
+  height: 5vh;
 }
 
 ul {
@@ -41,8 +40,37 @@ ul li {
 }
 
 #banner {
-  width: 100%;
+  width: 100vw;
   max-height: 320px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 10%;
+}
+
+#novidade {
+  text-align: center;
+}
+#novidade div {
+  max-width: 55%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 5%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

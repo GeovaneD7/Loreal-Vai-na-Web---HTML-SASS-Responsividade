@@ -7,6 +7,7 @@
 body {
     background-color: #EFEEF3;
     font-family: 'Kodchasan';
+    
     a {
         color: black;
         text-decoration: none;
@@ -25,10 +26,7 @@ header {
 
 nav {
     display: flex;
-    height: 64px;
-    max-height: 64px;
-
-    
+    height: 5vh;
 }
 
 ul {
@@ -44,16 +42,38 @@ ul {
     }
 }
 
-
-
 #banner {
-    width: 100%;
+    width: 100vw;
     max-height: 320px;
     object-fit: cover;
+    
 }
 
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 10%;
+}
 
+#novidade {
+    text-align: center;
+    div {
+        max-width: 55%;
+    }
+}
 
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
 
+p {
+    font-size: 2rem;
+    margin-top: 5%;
+}
 
-
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
