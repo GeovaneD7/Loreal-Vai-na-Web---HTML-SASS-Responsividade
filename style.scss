@@ -7,9 +7,53 @@
 body {
     background-color: #EFEEF3;
     font-family: 'Kodchasan';
-    font-style: normal;
+    a {
+        color: black;
+        text-decoration: none;
+    }
 }
 
 header {
-    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        margin-left: 1vw;
+    }
 }
+
+nav {
+    display: flex;
+    height: 64px;
+    max-height: 64px;
+
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-wrap: none;
+
+    li {
+        list-style: none;
+        font-size: 2rem;
+        margin-right: 2vw;
+    }
+}
+
+
+
+#banner {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+}
+
+
+
+
+
+
