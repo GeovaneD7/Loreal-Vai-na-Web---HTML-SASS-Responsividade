@@ -10,7 +10,7 @@ O desafio consistem em seguir as orientações gráficas do protótipo e demonst
 
 **HTML Semântico**: Utilize as tags corretamente para garantir que o conteúdo seja acessível e compreensível 🔍.
 
-**SCSS Organizado******: Mantenha o código SCSS claro, bem estruturado 🎨.
+**SCSS Organizado**: Mantenha o código SCSS claro, bem estruturado 🎨.
 
 **Nomenclatura Coerente**: Use nomes de classes intuitivos, que descrevam claramente sua função ou estilo 🏷️.
 
