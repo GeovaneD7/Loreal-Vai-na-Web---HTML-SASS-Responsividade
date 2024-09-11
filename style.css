@@ -23,7 +23,7 @@ header {
   header {
     flex-direction: column;
     justify-content: center;
-    height: 50vh;
+    height: 45vh;
   }
 }
 header img {
